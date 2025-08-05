@@ -1,0 +1,56 @@
+{
+  "expo": {
+    "name": "Kids Hope USA",
+    "slug": "kids-hope-usa-app",
+    "version": "2.2.3",
+    "orientation": "portrait",
+    "icon": "./assets/RedHeart.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/KHUSA-horiz-transparent.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#fff"
+    },
+    "newArchEnabled": true,
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jesseluyk.kidshopeusaapp",
+      "infoPlist": { "NSMicrophoneUsageDescription": "This app uses the microphone if you use voice-to-text" }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/RedHeart.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "android.permission.INTERNET",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE"
+      ],
+      "package": "com.jesseluyk.kidshopeusaapp",
+      "versionCode": 4
+    },
+    "web": {
+      "favicon": "./assets/KHUSA-horiz-transparent.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3ce62464-a391-4dca-b2a2-cc34a173ff75"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/3ce62464-a391-4dca-b2a2-cc34a173ff75"
+    },
+    "plugins": [
+      "@config-plugins/react-native-blob-util",
+      "@config-plugins/react-native-pdf"
+    ],
+    "jsEngine": "hermes"
+  }
+}
